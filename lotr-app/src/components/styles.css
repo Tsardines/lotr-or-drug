@@ -1,7 +1,9 @@
 .GameBoard {
     background-color: turquoise;
     height: 65vh;
+    margin-left: 20%;
     margin-top: 10em;
+    width: 60%;
 }
 
 .Question {
