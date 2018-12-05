@@ -1,144 +1,57 @@
-const Questions = [
+export default [
     {
-        question: "Numenor",
-        choices: [
-            {
-                type: "Tolkien character",
-                content: "tolkien"
-            },
-            {
-                type: "Prescription drug",
-                content: "drug"
-            }
-        ]
+       question: 'Numenor',
+       answers: ['Tolkien character', 'Prescription drug'],
+       correct: 1
     },
-
     {
-        question: "Ciryandil",
-        choices: [
-            {
-                type: "Tolkien character",
-                content: "tolkien"
-            },
-            {
-                type: "Prescription drug",
-                content: "drug"
-            }
-        ]
+       question: 'Benicar',
+       answers: ['Tolkien character', 'Prescription drug'],
+       correct: 2
     },
-
     {
-        question: "Crestor",
-        choices: [
-            {
-                type: "Tolkien character",
-                content: "tolkien"
-            },
-            {
-                type: "Prescription drug",
-                content: "drug"
-            }
-        ]
+       question: 'Humira',
+       answers: ['Tolkien character', 'Prescription drug'],
+       correct: 2
     },
-
     {
-        question: "Benicar",
-        choices: [
-            {
-                type: "Tolkien character",
-                content: "tolkien"
-            },
-            {
-                type: "Prescription drug",
-                content: "drug"
-            }
-        ]
+       question: 'Valacar',
+       answers: ['Tolkien character', 'Prescription drug'],
+       correct: 1
     },
-
     {
-        question: "Valacar",
-        choices: [
-            {
-                type: "Tolkien character",
-                content: "tolkien"
-            },
-            {
-                type: "Prescription drug",
-                content: "drug"
-            }
-        ]
+       question: 'Ciryandil',
+       answers: ['Tolkien character', 'Prescription drug'],
+       correct: 1
     },
-
     {
-        question: "Humira",
-        choices: [
-            {
-                type: "Tolkien character",
-                content: "tolkien"
-            },
-            {
-                type: "Prescription drug",
-                content: "drug"
-            }
-        ]
+       question: 'Imuran',
+       answers: ['Tolkien character', 'Prescription drug'],
+       correct: 2
     },
-
     {
-        question: "Zimraphel",
-        choices: [
-            {
-                type: "Tolkien character",
-                content: "tolkien"
-            },
-            {
-                type: "Prescription drug",
-                content: "drug"
-            }
-        ]
+       question: 'Crestor',
+       answers: ['Tolkien character', 'Prescription drug'],
+       correct: 2
     },
-
     {
-        question: "Imuran",
-        choices: [
-            {
-                type: "Tolkien character",
-                content: "tolkien"
-            },
-            {
-                type: "Prescription drug",
-                content: "drug"
-            }
-        ]
+       question: 'Remeron',
+       answers: ['Tolkien character', 'Prescription drug'],
+       correct: 2
     },
-
     {
-        question: "Vistaril",
-        choices: [
-            {
-                type: "Tolkien character",
-                content: "tolkien"
-            },
-            {
-                type: "Prescription drug",
-                content: "drug"
-            }
-        ]
+       question: 'Vistaril',
+       answers: ['Tolkien character', 'Prescription drug'],
+       correct: 2
     },
-
     {
-        question: "Remeron",
-        choices: [
-            {
-                type: "Tolkien character",
-                content: "tolkien"
-            },
-            {
-                type: "Prescription drug",
-                content: "drug"
-            }
-        ]
-    }
-
-];
-
-export default Questions;
+       question: 'Adanel',
+       answers: ['Tolkien character', 'Prescription drug'],
+       correct: 1
+    },
+    {
+       question: 'Elendor',
+       answers: ['Tolkien character', 'Prescription drug'],
+       correct: 1
+    },
+]
