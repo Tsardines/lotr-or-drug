@@ -13,15 +13,11 @@
                 "value": "Prescription drug"
              },
           ]
-         },
+         }
       ]
    }
 
 
-   //     "question": 'Numenor',
-   //     answers: ['Tolkien character', 'Prescription drug'],
-   //     correct: 1
-   //  },
    //  {
    //     "question": 'Humira',
    //     answers: ['Tolkien character', 'Prescription drug'],
