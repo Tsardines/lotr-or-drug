@@ -1,0 +1,74 @@
+
+    {
+      "title": "Quiz title",
+       "question": [
+         {"question": "Numenor",
+          "answers": [
+             {
+                "is_right": true,
+                "value": "Tolkien character"
+             },
+             {
+                "is_right": false,
+                "value": "Prescription drug"
+             },
+          ]
+         },
+      ]
+   }
+
+
+   //     "question": 'Numenor',
+   //     answers: ['Tolkien character', 'Prescription drug'],
+   //     correct: 1
+   //  },
+   //  {
+   //     "question": 'Humira',
+   //     answers: ['Tolkien character', 'Prescription drug'],
+   //     correct: 2
+   //  },
+   //  {
+   //     "question": 'Benicar',
+   //     answers: ['Tolkien character', 'Prescription drug'],
+   //     correct: 2
+   //  },
+   //  {
+   //     "question": 'Valacar',
+   //     answers: ['Tolkien character', 'Prescription drug'],
+   //     correct: 1
+   //  },
+   //  {
+   //     "question": 'Ciryandil',
+   //     answers: ['Tolkien character', 'Prescription drug'],
+   //     correct: 1
+   //  },
+   //  {
+   //     "question": 'Imuran',
+   //     answers: ['Tolkien character', 'Prescription drug'],
+   //     correct: 2
+   //  },
+   //  {
+   //     "question": 'Crestor',
+   //     answers: ['Tolkien character', 'Prescription drug'],
+   //     correct: 2
+   //  },
+   //  {
+   //     "question": 'Remeron',
+   //     answers: ['Tolkien character', 'Prescription drug'],
+   //     correct: 2
+   //  },
+   //  {
+   //     "question": 'Vistaril',
+   //     answers: ['Tolkien character', 'Prescription drug'],
+   //     correct: 2
+   //  },
+   //  {
+   //     "question": 'Adanel',
+   //     answers: ['Tolkien character', 'Prescription drug'],
+   //     correct: 1
+   //  },
+   //  {
+   //     "question": 'Elendor',
+   //     answers: ['Tolkien character', 'Prescription drug'],
+   //     correct: 1
+   //  }
