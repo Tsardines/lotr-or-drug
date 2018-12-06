@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
 import $ from 'jquery';
 import Question from './Question';
-// import Options from './Options';
 
 import './styles.css';
 
-class GameBoard extends Component {
+class quiz extends Component {
 
 getInitialState() {
     return {
@@ -83,7 +82,6 @@ renderResult() {
     return (
       <div className="GameBoard">
 
-        {/* <Question /> */}
         <h1>{this.state.quiz.title}</h1>
         {(this.state.step < this.state.quiz.questions.length 
         ? (<Question
@@ -96,6 +94,6 @@ renderResult() {
       </div>
     )
   }
-}
+};
 
-export default GameBoard;
+export default quiz;

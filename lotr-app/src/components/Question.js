@@ -10,7 +10,7 @@ propTypes: {
 }
 
     render() {
-        let AnswerNodes = Object.keys(this.props.data.answers).map(function(value, index) {
+        let answerNodes = Object.keys(this.props.data.answers).map(function(value, index) {
 
         return (
             <div className="Question">
@@ -41,6 +41,6 @@ propTypes: {
         </div>
     );
 }
-});
+};
 
 export default Question;

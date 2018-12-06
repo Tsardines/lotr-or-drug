@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import GameBoard from './components/GameBoard.js';
+import quiz from './components/quiz.js';
 
 import './App.css';
 
@@ -8,7 +8,7 @@ class App extends Component {
     return (
       <div className="App">
 
-        <GameBoard />
+        <quiz />
 
       </div>
     );
