@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import quiz from './components/quiz.js';
+import Quiz from './components/Quiz.js';
 
 import './App.css';
 
@@ -8,7 +8,7 @@ class App extends Component {
     return (
       <div className="App">
 
-        <quiz />
+        <Quiz />
 
       </div>
     );

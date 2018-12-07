@@ -4,7 +4,7 @@ import Question from './Question';
 
 import './styles.css';
 
-class quiz extends Component {
+class Quiz extends Component {
 
 getInitialState() {
     return {
@@ -25,15 +25,15 @@ nextStep() {
 }
 
 setAnswer(e) {
-    this.state.user_answers[this.state.step] = this.state.user_answers[this.state.step] || [];
-    this.state.user_answers[this.state.step][parseInt(e.target.value)] = e.target.checked;
+    this.setState.user_answers[this.setState.step] = this.setState.user_answers[this.setState.step] || [];
+    this.setState.user_answers[this.setState.step][parseInt(e.target.value)] = e.target.checked;
 }
 
 isAnswerRight(index) {
     let result = true;
     Object.keys(this.state.quiz.questions[index].answers).map(function(value, answer_index) {
         let answer = this.state.quiz.questions[index].answers[value]
-        if (!this.state.user_answers[index] || (answer.is_right != (this.state.user_answers[index][value] || false))) {
+        if (!this.state.user_answers[index] || (answer.is_right !== (this.state.user_answers[index][value] || false))) {
             result = false;
         }
     }.bind(this));
@@ -78,7 +78,7 @@ renderResult() {
 
 
   render() {
-      if (!this.state.quiz.questions) {return <div></div>}
+      if (!this.state.quiz.questions) {
     return (
       <div className="GameBoard">
 
@@ -92,8 +92,8 @@ renderResult() {
         : (<div>{this.renderResult()}</div>)
         )}
       </div>
-    )
+    )}
   }
 };
 
-export default quiz;
+export default Quiz;
